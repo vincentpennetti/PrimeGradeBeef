@@ -1,0 +1,128 @@
+<geneiousWorkflows>
+  <XMLSerialisableRootElement name="All The Butcherv0.0.5" author="vince" geneiousVersion="2023.0.4" uniqueId="f0078223-1a98-4b26-a60b-c864b27b1798" revisionNumber="59" description="&lt;html&gt;A Geneious Prime workflow to integrate with PrimeGradeBEEF for efficient prediction of base editing sites &lt;/html&gt;" bundledIconName="plugin">
+    <workflowElement id="Operation_com.biomatters.plugins.crispr.CRISPRAnnotationGenerator" exposeNoOptions="false" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="OffTarget Scoring" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="findWhere">anywhere</option>
+        <option name="PAM_Site_Location">THREE_PRIME</option>
+        <option name="pamType">CAS9_Default</option>
+        <option name="doOfftargetScoring">true</option>
+        <option name="pairSites">false</option>
+        <option name="colorBy">ontarget</option>
+        <option name="applyToReferencedSequences">false</option>
+        <childOption name="motif">
+          <option name="target">N(20)</option>
+          <option name="motif">NGG</option>
+          <option name="doOntargetScoring">true</option>
+          <option name="ontargetAlgorithm">Doenchetal.(2016)</option>
+        </childOption>
+        <childOption name="offtargetScoring">
+          <option name="useOffTargetFolder">false</option>
+          <option name="offTargetFolderOption" />
+          <option name="scoreAgainstOtherSelectedSequences">false</option>
+          <option name="maxMismatches">4</option>
+          <option name="maxIndels">0</option>
+        </childOption>
+        <childOption name="pairingOptions">
+          <option name="maxPairOverlap">6</option>
+          <option name="maxSpaceBetweenPairs">16</option>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="offtargetScoring.useOffTargetFolder" label="" />
+      <optionToExpose optionName="offtargetScoring.offTargetFolderOption" label="" />
+    </workflowElement>
+    <workflowElement id="Operation_com.biomatters.plugins.crispr.CRISPRAnnotationGenerator" exposeNoOptions="false" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="OffTarget Scoring" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="findWhere">anywhere</option>
+        <option name="PAM_Site_Location">THREE_PRIME</option>
+        <option name="pamType">CAS9_Default</option>
+        <option name="doOfftargetScoring">true</option>
+        <option name="pairSites">false</option>
+        <option name="colorBy">ontarget</option>
+        <option name="applyToReferencedSequences">false</option>
+        <childOption name="motif">
+          <option name="target">N(18)</option>
+          <option name="motif">NGG</option>
+          <option name="doOntargetScoring">true</option>
+          <option name="ontargetAlgorithm">Doenchetal.(2014)</option>
+        </childOption>
+        <childOption name="offtargetScoring">
+          <option name="useOffTargetFolder">false</option>
+          <option name="offTargetFolderOption" />
+          <option name="scoreAgainstOtherSelectedSequences">false</option>
+          <option name="maxMismatches">4</option>
+          <option name="maxIndels">0</option>
+        </childOption>
+        <childOption name="pairingOptions">
+          <option name="maxPairOverlap">6</option>
+          <option name="maxSpaceBetweenPairs">16</option>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="offtargetScoring.useOffTargetFolder" label="" />
+      <optionToExpose optionName="offtargetScoring.offTargetFolderOption" label="" />
+    </workflowElement>
+    <workflowElement id="Operation_com.biomatters.plugins.crispr.CRISPRAnnotationGenerator" exposeNoOptions="false" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="OffTarget Scoring" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="findWhere">anywhere</option>
+        <option name="PAM_Site_Location">THREE_PRIME</option>
+        <option name="pamType">CAS9_Default</option>
+        <option name="doOfftargetScoring">true</option>
+        <option name="pairSites">false</option>
+        <option name="colorBy">ontarget</option>
+        <option name="applyToReferencedSequences">false</option>
+        <childOption name="motif">
+          <option name="target">N(22)</option>
+          <option name="motif">NGG</option>
+          <option name="doOntargetScoring">true</option>
+          <option name="ontargetAlgorithm">Doenchetal.(2014)</option>
+        </childOption>
+        <childOption name="offtargetScoring">
+          <option name="useOffTargetFolder">false</option>
+          <option name="offTargetFolderOption" />
+          <option name="scoreAgainstOtherSelectedSequences">false</option>
+          <option name="maxMismatches">4</option>
+          <option name="maxIndels">0</option>
+        </childOption>
+        <childOption name="pairingOptions">
+          <option name="maxPairOverlap">6</option>
+          <option name="maxSpaceBetweenPairs">16</option>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="offtargetScoring.useOffTargetFolder" label="" />
+      <optionToExpose optionName="offtargetScoring.offTargetFolderOption" label="" />
+    </workflowElement>
+    <workflowElement id="PrimeGradeBeef_v0.0.5_" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement" />
+  </XMLSerialisableRootElement>
+  <XMLSerialisableRootElement name="20nt The Butcherv0.0.5 " author="vince" geneiousVersion="2023.0.4" uniqueId="3b0489dd-1352-4cfc-9c9d-649af6a88fbf" revisionNumber="55" description="&lt;html&gt;A Geneious Prime workflow to integrate with PrimeGradeBEEF for efficient prediction of base editing sites &lt;/html&gt;" bundledIconName="plugin">
+    <workflowElement id="Operation_com.biomatters.plugins.crispr.CRISPRAnnotationGenerator" exposeNoOptions="false" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="true" groupNameForExposedOptions="OffTarget Scoring" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement">
+      <Options>
+        <option name="findWhere">anywhere</option>
+        <option name="PAM_Site_Location">THREE_PRIME</option>
+        <option name="pamType">CAS9_Default</option>
+        <option name="doOfftargetScoring">true</option>
+        <option name="pairSites">false</option>
+        <option name="colorBy">ontarget</option>
+        <option name="applyToReferencedSequences">false</option>
+        <childOption name="motif">
+          <option name="target">N(20)</option>
+          <option name="motif">NGG</option>
+          <option name="doOntargetScoring">true</option>
+          <option name="ontargetAlgorithm">Doenchetal.(2016)</option>
+        </childOption>
+        <childOption name="offtargetScoring">
+          <option name="useOffTargetFolder">false</option>
+          <option name="offTargetFolderOption" />
+          <option name="scoreAgainstOtherSelectedSequences">false</option>
+          <option name="maxMismatches">4</option>
+          <option name="maxIndels">0</option>
+        </childOption>
+        <childOption name="pairingOptions">
+          <option name="maxPairOverlap">6</option>
+          <option name="maxSpaceBetweenPairs">16</option>
+        </childOption>
+      </Options>
+      <optionToExpose optionName="offtargetScoring.useOffTargetFolder" label="" />
+      <optionToExpose optionName="offtargetScoring.offTargetFolderOption" label="" />
+    </workflowElement>
+    <workflowElement id="PrimeGradeBeef_v0.0.5_" exposeNoOptions="true" exposeAllOptions="false" suppressErrors="false" showButtonForExposedGroup="false" groupNameForExposedOptions="" type="com.biomatters.plugins.workflows.DocumentOperationWorkflowElement" />
+  </XMLSerialisableRootElement>
+</geneiousWorkflows>
