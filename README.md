@@ -1,4 +1,4 @@
-# primegradebeef
+# PrimeGradeBeef
 A new BEEF tailored for command line execution and integration with geneiousprime via a wrapper plugin. The script accurately filters putative TargetAID base editor targets down to the candidates that can induce premature stop codons within a coding sequence. 
 
 The geneiousprime workflow should be ran on an extracted CDS annotation representing the gene intended for knockout. 
